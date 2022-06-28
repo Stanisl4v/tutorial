@@ -1,4 +1,13 @@
 import React from 'react'
+import { makeStyles } from '@material-ui/styles';
+
+const useSyles = makeStyles({
+  Book:{
+    background: '#fff',
+    border-radius: '1rem',
+    padding: '1rem 2rem',
+  }
+});
 
 const Book = ({img, title, author}) =>{
     // const {img, title, author} = props;

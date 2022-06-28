@@ -3,9 +3,11 @@ import ReactDom from 'react-dom'
 //css 
 import './index.css';
 
-import {books} from './books'
-import Book from './Book'
+import {books} from './books.tsx'
+import Book from './Book.tsx'
 import {greeting} from './testing/testing'
+
+
 
 function BookList() {
   console.log(greeting)
